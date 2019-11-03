@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/00b2e178748d164f27fb100e9fd536df/material-1.1.0-alpha05/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/a72255562d7bee87a9034035ff18ac72/appcompat-1.1.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3b1ac23d89dec8242a5af41561c92ec6/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89ac53c42333f583afa7aaf7f1f7e45b/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/545eacf562cf7a2deadd304f62524269/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/9c5ff0154df130ee6f04c042c9e23e1e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/4873c64166dc1c52dfcac8dd148db1f0/fragment-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ebe1f49041ce89336b34ce88e914395a/appcompat-resources-1.1.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/0d35eed067dd13f18e3ca6259bfb6863/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/5a7bf2c5acb30d78514077998caf7caa/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/2f9ff1a474ed0cc8889e2e2aae319e0f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/cdb25b281f3f0dcd070204170604876e/recyclerview-1.1.0-alpha01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ae0515d9deb1daa26c20e5f67360f29e/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7c483d36f671d02f1161c1cc22114739/vectordrawable-animated-1.1.0-alpha01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7f15c4a2a9b6f7b9198b34aa373002ff/vectordrawable-1.1.0-alpha01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7277912217961910cd6924ad0fa3f226/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/423f5cd4a2e2d340a478711a257271ae/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/0db5f2a1b534fab57f01dab5a5049bbf/activity-1.0.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/1f84db015270167141d8813826fc123d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/1150ef84c96c7940388b536918a77b4c/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/264f3197618a55fbc39a6ebcee9665a4/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3ab0fe61ced4006666b5104d2311cff4/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/fa6f4032b3ef73337bf6c78d64199a34/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89a7f1e040b4a7ab8e7dcf3285a49cfa/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d35485a62e55da22a879961e45b24d67/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d1b4379d85a181bfbd4f651583722eb0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/6e25f8e661f1256fc4c640f2b9dc0531/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3e23841b4de01749f7b00f8d577cc182/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/55466412366314b0db4d2a7e209cd342/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/52f26dcec3fe9eba2bf7575ec165c946/lifecycle-viewmodel-2.1.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/9259422516b40ac4eb42106aa6f14be3/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/8d95e90558bbb5a4b0453570ff4af87c/lifecycle-runtime-2.1.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/14e24d81017ad2bfca7104254996c7cf/savedstate-1.0.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/895c999882ef682947936e8b7f565c2a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ceb9ae3bf7fc6ad458c3249403641683/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:3:5-58
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/00b2e178748d164f27fb100e9fd536df/material-1.1.0-alpha05/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/00b2e178748d164f27fb100e9fd536df/material-1.1.0-alpha05/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89ac53c42333f583afa7aaf7f1f7e45b/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89ac53c42333f583afa7aaf7f1f7e45b/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/fa6f4032b3ef73337bf6c78d64199a34/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/fa6f4032b3ef73337bf6c78d64199a34/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d35485a62e55da22a879961e45b24d67/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d35485a62e55da22a879961e45b24d67/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/fa6f4032b3ef73337bf6c78d64199a34/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.a01_recyclerview_item_animation.MainActivity
+ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/00b2e178748d164f27fb100e9fd536df/material-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha05] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/00b2e178748d164f27fb100e9fd536df/material-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/a72255562d7bee87a9034035ff18ac72/appcompat-1.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/a72255562d7bee87a9034035ff18ac72/appcompat-1.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3b1ac23d89dec8242a5af41561c92ec6/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3b1ac23d89dec8242a5af41561c92ec6/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89ac53c42333f583afa7aaf7f1f7e45b/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89ac53c42333f583afa7aaf7f1f7e45b/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/545eacf562cf7a2deadd304f62524269/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/545eacf562cf7a2deadd304f62524269/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/9c5ff0154df130ee6f04c042c9e23e1e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/9c5ff0154df130ee6f04c042c9e23e1e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/4873c64166dc1c52dfcac8dd148db1f0/fragment-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/4873c64166dc1c52dfcac8dd148db1f0/fragment-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ebe1f49041ce89336b34ce88e914395a/appcompat-resources-1.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ebe1f49041ce89336b34ce88e914395a/appcompat-resources-1.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/0d35eed067dd13f18e3ca6259bfb6863/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/0d35eed067dd13f18e3ca6259bfb6863/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/5a7bf2c5acb30d78514077998caf7caa/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/5a7bf2c5acb30d78514077998caf7caa/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/2f9ff1a474ed0cc8889e2e2aae319e0f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/2f9ff1a474ed0cc8889e2e2aae319e0f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/cdb25b281f3f0dcd070204170604876e/recyclerview-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/cdb25b281f3f0dcd070204170604876e/recyclerview-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ae0515d9deb1daa26c20e5f67360f29e/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ae0515d9deb1daa26c20e5f67360f29e/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7c483d36f671d02f1161c1cc22114739/vectordrawable-animated-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7c483d36f671d02f1161c1cc22114739/vectordrawable-animated-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7f15c4a2a9b6f7b9198b34aa373002ff/vectordrawable-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7f15c4a2a9b6f7b9198b34aa373002ff/vectordrawable-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7277912217961910cd6924ad0fa3f226/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/7277912217961910cd6924ad0fa3f226/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/423f5cd4a2e2d340a478711a257271ae/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/423f5cd4a2e2d340a478711a257271ae/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/0db5f2a1b534fab57f01dab5a5049bbf/activity-1.0.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/0db5f2a1b534fab57f01dab5a5049bbf/activity-1.0.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/1f84db015270167141d8813826fc123d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/1f84db015270167141d8813826fc123d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/1150ef84c96c7940388b536918a77b4c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/1150ef84c96c7940388b536918a77b4c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/264f3197618a55fbc39a6ebcee9665a4/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/264f3197618a55fbc39a6ebcee9665a4/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3ab0fe61ced4006666b5104d2311cff4/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3ab0fe61ced4006666b5104d2311cff4/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/fa6f4032b3ef73337bf6c78d64199a34/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/fa6f4032b3ef73337bf6c78d64199a34/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89a7f1e040b4a7ab8e7dcf3285a49cfa/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/89a7f1e040b4a7ab8e7dcf3285a49cfa/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d35485a62e55da22a879961e45b24d67/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d35485a62e55da22a879961e45b24d67/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d1b4379d85a181bfbd4f651583722eb0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/d1b4379d85a181bfbd4f651583722eb0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/6e25f8e661f1256fc4c640f2b9dc0531/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/6e25f8e661f1256fc4c640f2b9dc0531/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3e23841b4de01749f7b00f8d577cc182/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/3e23841b4de01749f7b00f8d577cc182/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/55466412366314b0db4d2a7e209cd342/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/55466412366314b0db4d2a7e209cd342/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/52f26dcec3fe9eba2bf7575ec165c946/lifecycle-viewmodel-2.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/52f26dcec3fe9eba2bf7575ec165c946/lifecycle-viewmodel-2.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/9259422516b40ac4eb42106aa6f14be3/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/9259422516b40ac4eb42106aa6f14be3/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/8d95e90558bbb5a4b0453570ff4af87c/lifecycle-runtime-2.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/8d95e90558bbb5a4b0453570ff4af87c/lifecycle-runtime-2.1.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/14e24d81017ad2bfca7104254996c7cf/savedstate-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/14e24d81017ad2bfca7104254996c7cf/savedstate-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/895c999882ef682947936e8b7f565c2a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/895c999882ef682947936e8b7f565c2a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ceb9ae3bf7fc6ad458c3249403641683/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/merttutsak/.gradle/caches/transforms-2/files-2.1/ceb9ae3bf7fc6ad458c3249403641683/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/src/main/AndroidManifest.xml
