@@ -1,16 +1,19 @@
 package com.example.recyclerview_item_animation.ui.viewpager
 
+import android.util.Log
 import android.view.View
 import com.example.recyclerview_item_animation.ui.viewpager.direction.DirectionPagerTransformer
 import com.example.recyclerview_item_animation.ui.viewpager.item.ItemViewHolder
+import java.util.logging.Logger
 import kotlin.math.abs
 
 class PagerTransformerShift() : DirectionPagerTransformer() {
 
     override fun onTransform(page: View, position: Float) {
         var holder = (getHolder(page) as ItemViewHolder)
-        val pageWidth = holder.view.width
+        holder.setDirection(position)
 
+        val pageWidth = holder.view.width
         val absPosition = abs(position)
 
         val angle = 60.0f
@@ -18,7 +21,7 @@ class PagerTransformerShift() : DirectionPagerTransformer() {
         //Durumlarını anlamak için yapılmıştır.
         /*holder.changeColor(position, page.context)*/
 
-        if (holder.direction == ViewPagerDirection.FROM_RIGHT) {
+        if (holder.direction == ViewPagerDirection.FROM_RIGHT || holder.direction == ViewPagerDirection.TO_RIGHT) {
             if (absPosition >= 0.9) {
                 holder.cardViewAnim(
                     ItemViewHolder.scaleFactor * absPosition + 1,
@@ -40,7 +43,7 @@ class PagerTransformerShift() : DirectionPagerTransformer() {
                     ((ItemViewHolder.maxRotationDistanceY / 2f) - ((ItemViewHolder.maxRotationDistanceY / 2f) * ((2f - (absPosition * 10f - 0f)) / 2f)))
                 )
             }
-        } else if (holder.direction == ViewPagerDirection.TO_LEFT) {
+        } else if (holder.direction == ViewPagerDirection.TO_LEFT || holder.direction == ViewPagerDirection.FROM_LEFT) {
             holder.cardViewAnim(
                 ItemViewHolder.scaleFactor * absPosition + 1,
                 (ItemViewHolder.maxRotationDistanceY * (absPosition))
@@ -55,7 +58,7 @@ class PagerTransformerShift() : DirectionPagerTransformer() {
 
 
         if (
-            ((holder.direction == ViewPagerDirection.FROM_RIGHT) || (holder.direction == ViewPagerDirection.FROM_LEFT) || (holder.direction == ViewPagerDirection.NONE))
+            ((holder.direction == ViewPagerDirection.FROM_RIGHT) || (holder.direction == ViewPagerDirection.NONE))
         ) {
             holder.showAnim(
                 angle * (1 - absPosition)
@@ -65,8 +68,22 @@ class PagerTransformerShift() : DirectionPagerTransformer() {
             holder.showAnim(
                 angle
             )
-        } else if (holder.direction == ViewPagerDirection.TO_LEFT || (holder.direction == ViewPagerDirection.TO_RIGHT)) {
+        } else if (holder.direction == ViewPagerDirection.TO_LEFT || holder.direction == ViewPagerDirection.ON_LEFT) {
             holder.imageViewItem.translationX = holder.imageViewItem.x * 1.1f
+                holder.showAnim(
+                    angle
+                    , false
+                )
+        } else if ((holder.direction == ViewPagerDirection.FROM_LEFT)) {
+            holder.imageViewItem.translationX = holder.imageViewItem.x / 1.1f
+            holder.showAnim(
+                angle
+                , false
+            )
+        } else if (holder.direction == ViewPagerDirection.TO_RIGHT || holder.direction == ViewPagerDirection.ON_RIGHT) {
+            holder.showAnim(
+                angle * (1 - absPosition)
+            )
         } else { //Durma durumu
             holder.showAnim(
                 0f

@@ -14,7 +14,6 @@ import com.example.recyclerview_item_animation.ui.viewpager.direction.DirectionP
 import com.example.recyclerview_item_animation.utils.DrawableConstant
 
 class ItemViewHolder(view: View) : DirectionPagerTransformer.DirectionViewHolder(view) {
-
     companion object {
         const val scaleFactor: Float = -0.06f
         const val shoeDefaultAngle: Float = -90f
@@ -30,8 +29,9 @@ class ItemViewHolder(view: View) : DirectionPagerTransformer.DirectionViewHolder
     val imageButtonForward: ImageButton = view.findViewById(R.id.imageButtonForward)
     val imageButtonChecked: ImageButton = view.findViewById(R.id.imageButtonChecked)
 
-    override fun bind(viewModel: BaseViewModel, position: Int) {
-        var itemViewModel = viewModel as ItemViewModel
+    override fun bind(baseViewModel: BaseViewModel, position: Int) {
+        super.bind(baseViewModel, position)
+        var itemViewModel = baseViewModel as ItemViewModel
         cardviewItem.setCardBackgroundColor(itemViewModel.color)
         imageViewItem.setImageDrawable(itemViewModel.image)
 
@@ -53,16 +53,18 @@ class ItemViewHolder(view: View) : DirectionPagerTransformer.DirectionViewHolder
         cardviewContent.rotationY = rotationY
     }
 
-    fun showAnim(angle: Float) {
+    fun showAnim(angle: Float, isVisibleHandle: Boolean = true) {
         val angleValue = shoeDefaultAngle + angle
         val angleDefaultValue = shoeDefaultAngle
         imageViewItem.rotation = angleValue
 
-        if (imageViewItem.rotation > shoeDefaultAngle && imageViewItem.rotation <= (shoeDefaultAngle + shoeMaxAngleDistance)) {
-            imageViewItem.visibility = VISIBLE
-        } else {
-            imageViewItem.rotation = angleDefaultValue
-            imageViewItem.visibility = GONE
+        if(isVisibleHandle){
+            if (imageViewItem.rotation > shoeDefaultAngle && imageViewItem.rotation <= (shoeDefaultAngle + shoeMaxAngleDistance)) {
+                imageViewItem.visibility = VISIBLE
+            } else {
+                imageViewItem.rotation = angleDefaultValue
+                imageViewItem.visibility = GONE
+            }
         }
     }
 

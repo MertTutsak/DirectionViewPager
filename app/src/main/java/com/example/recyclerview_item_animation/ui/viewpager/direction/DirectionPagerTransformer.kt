@@ -1,5 +1,6 @@
 package com.example.recyclerview_item_animation.ui.viewpager.direction
 
+import android.util.Log
 import android.view.View
 import androidx.viewpager.widget.ViewPager
 import com.example.recyclerview_item_animation.ui.viewpager.item.ItemViewHolder
@@ -7,8 +8,6 @@ import com.example.recyclerview_item_animation.ui.viewpager.base.BaseViewPager
 import java.util.ArrayList
 
 abstract class DirectionPagerTransformer : ViewPager.PageTransformer {
-    val startOffset: Float = 0f
-
     var holderList = ArrayList<DirectionViewHolder>()
 
     abstract fun onTransform(page: View, position: Float)
@@ -18,15 +17,51 @@ abstract class DirectionPagerTransformer : ViewPager.PageTransformer {
         onTransform(page, position)
         addHolder(getHolder(page))
     }
-     open class DirectionViewHolder(view: View) : BaseViewPager.ViewHolder(view) {
+
+    open class DirectionViewHolder(view: View) : BaseViewPager.ViewHolder(view) {
+
         var direction: ViewPagerDirection =
             ViewPagerDirection.NONE
 
         var state: ViewPagerState =
             ViewPagerState.NONE
 
-        override fun bind(viewModel: BaseViewModel, position: Int) {
+        override fun bind(baseViewModel: BaseViewModel, position: Int) {
+        }
 
+        fun setDirection(position: Float) {
+            if (this.lastPosition == position) {
+                this.state == ViewPagerState.STABLE
+                return
+            }
+
+            if (position <= -1f) {
+                this.direction = ViewPagerDirection.ON_LEFT
+                this.state == ViewPagerState.STABLE
+            } else if (position >= 1f) {
+                this.direction = ViewPagerDirection.ON_RIGHT
+                this.state == ViewPagerState.STABLE
+            } else if (position < 0) {
+                if (position > this.lastPosition) {
+                    this.direction = ViewPagerDirection.FROM_LEFT
+                    this.state == ViewPagerState.MOVE
+                } else if (position < this.lastPosition) {
+                    this.direction = ViewPagerDirection.TO_LEFT
+                    this.state == ViewPagerState.MOVE
+                }
+            } else if (position > 0) {
+                if (position >= this.lastPosition) {
+                    this.direction = ViewPagerDirection.TO_RIGHT
+                    this.state == ViewPagerState.MOVE
+                } else if (position < this.lastPosition) {
+                    this.direction = ViewPagerDirection.FROM_RIGHT
+                    this.state == ViewPagerState.MOVE
+                }
+            } else {
+                this.direction = ViewPagerDirection.CENTER
+                this.state == ViewPagerState.STABLE
+            }
+            this.lastPosition = position
         }
 
         var lastPosition: Float = -1f
@@ -45,9 +80,6 @@ abstract class DirectionPagerTransformer : ViewPager.PageTransformer {
     protected fun addHolder(holder: DirectionViewHolder) {
         if (!holderList.contains(holder)) {
             holderList.add(holder)
-        } else {
-            var index = holderList.indexOf(holder)
-            holderList[index] = holder
         }
     }
 

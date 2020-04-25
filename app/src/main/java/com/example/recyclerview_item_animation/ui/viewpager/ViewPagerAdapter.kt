@@ -14,6 +14,8 @@ class ViewPagerAdapter(
     val itemModels: ArrayList<ItemViewModel>
 ) : PagerAdapter() {
 
+
+
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         val holder = ItemViewHolder(
             LayoutInflater.from(context).inflate(
