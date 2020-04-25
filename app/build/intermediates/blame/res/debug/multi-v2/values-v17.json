@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "/Users/admin/Documents/AndroidProjects/Tutorials/denemedeneme/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/merttutsak/.gradle/caches/transforms-2/files-2.1/a72255562d7bee87a9034035ff18ac72/appcompat-1.1.0-alpha04/res/values-v17/values-v17.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/94eb51dfdd86dee7f4a1450d23799d44/appcompat-1.2.0-beta01/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

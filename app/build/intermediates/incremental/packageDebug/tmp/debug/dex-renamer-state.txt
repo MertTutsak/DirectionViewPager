@@ -1,7 +1,7 @@
-#Wed Sep 25 17:20:36 EET 2019
-base.0=/Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+#Sat Apr 25 21:29:24 EET 2020
+base.0=/Users/admin/Documents/AndroidProjects/Tutorials/denemedeneme/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/merttutsak/AndroidProjects/Researches/UI Tutorials/Recyclerview_item_animation/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=/Users/admin/Documents/AndroidProjects/Tutorials/denemedeneme/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
